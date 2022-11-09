@@ -3,9 +3,15 @@
 let nome = prompt("Qual o seu nome?");
 let idade = Number(prompt("Qual a sua idade?"));
 
-console.log(nome + " " + idade);
+console.log(`Olá meu nome é ${nome} tenho ${idade} anos`);
 
 //Escreva uma função refatorada que receba a idade de uma pessoa em anos e retorne a mesma idade em dias;
+
+function idade(num){
+    num = Number(prompt("Digite sua idade"));
+
+    
+}
 
 //Crie uma função refatorada que recebe um número (de 1 a 12 e retorne o mês correspondente como uma string. Por exemplo, se a entrada for 2, a função deverá retornar "fevereiro", pois este é o 2° mês. Responda. Qual a melhor estrutura condicional? Swith OU IF?
 
